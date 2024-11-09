@@ -1,12 +1,8 @@
 import { useState } from 'react' 
 import './App.css';
-
+import layout from './Layouts/Layout';
 function App() {
-    return (
-        <>
-        <h1 className='text-'> </h1>
-        </>
-    )
+    return <layout/>
 }
 
 export default App
